@@ -58,14 +58,18 @@ header ul li {
   padding-bottom: 50px;
 }
 .banner .content {
-  text-align: justify;
+  text-align: start;
   padding-right: 50px;
 }
 .banner .content h1 {
   font-size: 4.5em;
   margin: 0;
 }
+.h1-text {
+  display: inline;
+}
 .gradientText {
+  font-size: 4.5em;
   display: inline-block;
   background: var(--gradient-bg);
   -webkit-background-clip: text;
@@ -231,6 +235,9 @@ header input {
   .banner .content h1 {
     font-size: 2em;
   }
+  .gradientText {
+    font-size: 2em;
+  }
   .listProject {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -242,6 +249,9 @@ header input {
     grid-template-columns: 1fr;
   }
   .banner .content h1 {
+    font-size: 1.2em;
+  }
+  .gradientText {
     font-size: 1.2em;
   }
   .banner .avatar {
